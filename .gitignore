@@ -1,0 +1,50 @@
+# Ignore temporary Tableau backup files
+*.twbr
+
+# Ignore Tableau Packaged Extracts
+*.hyper
+*.tde
+
+# Ignore Tableau Data Sources
+*.tds
+*.tdsx
+
+# Ignore Tableau Log Files
+*.log
+*.log.*
+
+# Ignore Tableau Workbook Files
+*.twbx
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore JetBrains IDE project files
+.idea/
+
+# Ignore temporary files created by various text editors
+*~
+*.swp
+*.swo
+
+# Ignore Node.js dependencies (if applicable)
+node_modules/
