@@ -51,9 +51,9 @@
    - Open a terminal in VSCode.
    - Navigate to your project folder and run the following command:
      ```bash
-     python -m venv venv
+     python -m venv myenv
      ```
-   - This creates a virtual environment named `venv` in your project folder.
+   - This creates a virtual environment named `myenv` in your project folder.
 
 2. **Activate the Virtual Environment:**
    - On Windows:
