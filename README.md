@@ -110,4 +110,17 @@
    - In either Jupyter Notebook or JupyterLab, you can create a new notebook by selecting `New > Python 3`.
    - In the notebook, you can write and execute Python code in cells.
 
-These instructions should set up your environment for data visualization, including the optional setup for virtual environments and Jupyter notebooks/labs.
+6. **Exit the R Session in VSCode**
+   - Type the following command in the R terminal and press **Enter**:
+     ```r
+     q()
+     ```
+   - R will prompt you to save your workspace. You can type **n** (no), **y** (yes), or just press **Enter** for the default (no).
+
+7. **Close the Integrated Terminal in VSCode**
+   If you simply want to close the terminal window in VSCode:
+   - You can use the shortcut `Ctrl+Shift+` `` (backtick) or go to the **Terminal > Close Terminal** from the menu.
+   - Alternatively, you can click the **trash icon** in the terminal pane to close the active terminal session.
+
+### 3. **Kill All Terminals in VSCode**
+   - To close all active terminals in VSCode, you can use the shortcut `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the **Command Palette**, then search for **"Terminate All Terminals"**.
