@@ -48,3 +48,4 @@ __pycache__/
 
 # Ignore Node.js dependencies (if applicable)
 node_modules/
+.Rproj.user
